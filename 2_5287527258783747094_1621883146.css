@@ -1,0 +1,153 @@
+body {
+	margin: 0;
+	background-image: url(https://img.oboi.ua/img/c/marburg/empire-new/b/57551.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+.store {
+	background-color: bisque;
+	min-height: 404px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+nav a {
+	background: #E1ADA4;
+	border-color: black;
+	color: #BE723C;
+    font-size: 20px;
+    border: 2px solid black;
+    padding: 17px 30px;
+    margin-right: 20px;
+    transition: 2s;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: yellow;
+    color: green;
+}
+nav {
+    display: flex;
+    justify-content: center;
+}
+h1 {
+	font-size: 50px;
+    color: #E1ADA4;
+}
+h3 {
+	font-size: 10px;
+    color: ;
+    background: yellow;
+
+}
+nav li {
+	list-style-type: none;
+}
+.box {
+	width: 350px;
+	border: 2px solid black;
+}
+.box img {		
+	width: 350px;
+	height: 250px;
+}
+h2 {
+	background: yellow;
+	color: black;
+	font-size: 15px;
+}
+.photo-contanier {
+	padding-bottom: 20px;
+	padding-top: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.car {
+	padding-top: 50px;
+	font-size: 15px;
+}   
+footer {
+	background-color: bisque;
+}
+footer p {
+	color: black;
+	font-size: 20px;
+	margin: 0px;
+	text-align: center;
+}
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	grid-template-rows: repeat(1, 1fr);
+}
+
+.grid-container ul {
+	margin: 0px;
+	padding: 0px;
+	display: none;
+    position: absolute;
+    line-height: 40px;
+    margin-top: 60px;
+}
+.grid-container li {
+	line-height: 58px;
+}
+.grid-container:hover ul {
+	display: block;
+}
+form label {
+    color: green;
+    margin-right: 10px;
+}
+form div {
+	display: flex;
+    justify-content: center;
+    line-height: 40px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+ .messenger {  
+	color: green;
+}
+.post {
+	margin-left: 30px;
+	color: green;
+}
+.send {
+	margin-left: 20px;
+	color: green;
+}
+.initiative {
+	color: green;
+}
+.link-container {
+    padding: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+.link-container a {
+    border: 1px solid  black;
+    border-radius:100%;
+    padding: 30px;
+    font-size: 10px;
+    color: black;
+   
+}
+.link-container a:first-child {
+    margin-right: 20px;
+}
+.clock-menu {
+	display: flex;
+	justify-content: center;
+	font-size: 20px;
+}
+h3 {
+	display: flex;
+	justify-content: center;
+}
+.buy-wristwatch {
+    display: flex;
+    justify-content: center;
+}
